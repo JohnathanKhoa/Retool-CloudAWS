@@ -1,12 +1,15 @@
-spring:
-application:
-name: blog
-mvc:
-servlet:
-path: /blog-service
-autoconfigure:
-exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
-data:
-mongodb:
-uri: jdbc:mysql://localhost:3306/blog
-database: blog
+#spring:
+ # application:
+  #  name: blog
+  #mvc:
+  #servlet:
+  #  path: /blog-service
+  #autoconfigure:
+  #  exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  #data:
+  #  mysql:
+  #    uri: jdbc:mysql://root@localhost:3306
+  #    database: blog
+
+server:
+  port: 8787

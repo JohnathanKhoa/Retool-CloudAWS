@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @Transactional
-@RequestMapping("/api")
+//@RequestMapping("/api")
 public class blogController {
 
     @Autowired
