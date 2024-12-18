@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin(origins = "https://johnathan-khoa-blog-jvf7dc6gq-johnathankhoas-projects.vercel.app/")
 @RestController
 @Transactional
 //@RequestMapping("/api")
