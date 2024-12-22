@@ -9,10 +9,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-//@CrossOrigin(origins = "https://johnathan-khoa-blog-jvf7dc6gq-johnathankhoas-projects.vercel.app/")
+
 @RestController
 @Transactional
-//@RequestMapping("/api")
 public class blogController {
 
     @Autowired

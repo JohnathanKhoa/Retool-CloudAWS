@@ -19,12 +19,9 @@ public class blogService {
 
     public blog saveBlog(blog Blog) { return blogRepository.save(Blog); }
 
-    public blog modifyBlog(blog Blog) { return blogRepository.save(Blog); }
     public List<blog> getBlogsByEmail(String email) { return (List<blog>) blogRepository.findByEmail(email); }
 
     public List<blog> getAllBlogs(){ return blogRepository.findAll(); }
-
-    public Optional<blog> getBlogById(String blog_id) { return blogRepository.findById(blog_id); }
 
     public void deleteBlog(String id) { blogRepository.deleteById(id); }
 }
