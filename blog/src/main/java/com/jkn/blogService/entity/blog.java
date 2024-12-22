@@ -1,9 +1,8 @@
 package com.jkn.blogService.entity;
 
-import lombok.*;
 import jakarta.persistence.*;
-
-import java.io.Serializable;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 @Entity
 @AllArgsConstructor

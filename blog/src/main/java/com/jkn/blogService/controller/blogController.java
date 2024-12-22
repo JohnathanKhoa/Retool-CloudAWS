@@ -8,9 +8,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
-@CrossOrigin(origins = "https://johnathan-khoa-blog-jvf7dc6gq-johnathankhoas-projects.vercel.app/")
+//@CrossOrigin(origins = "https://johnathan-khoa-blog-jvf7dc6gq-johnathankhoas-projects.vercel.app/")
 @RestController
 @Transactional
 //@RequestMapping("/api")
@@ -25,9 +24,28 @@ public class blogController {
         return ResponseEntity.ok(createdBlog);
     }
 
+    @PutMapping("/modifyBlog")
+    public ResponseEntity<blog> modifyBlog(@RequestBody blog Blog) {
+        blog createdBlog = blogService.saveBlog(Blog);
+        return ResponseEntity.ok(createdBlog);
+    }
+
     @GetMapping("/blogs")
     public ResponseEntity<List<blog>> getBlogsByEmail(@RequestParam("email") String email) {
         List<blog> Blogs = blogService.getBlogsByEmail(email);
         return (ResponseEntity.ok(Blogs));
+    }
+
+    @GetMapping("/blogAll")
+    public ResponseEntity<List<blog>> getBlogs() {
+        List<blog> Blogs = blogService.getAllBlogs();
+        return (ResponseEntity.ok(Blogs));
+    }
+
+    @DeleteMapping("/deleteBlog")
+    public ResponseEntity<String> deleteBlog(@RequestBody String blog_id){
+        blogService.deleteBlog(blog_id);
+        return (ResponseEntity.ok().build());
+
     }
 }
