@@ -9,9 +9,7 @@ Java, Spring Framework, Maven, HTTP, REST API, JPA, JDBC, Hibernate, SQL Datasou
 
 AWS Elastic Beanstalk, EC2, RDS, S3
 
-Retool, JavaScript, TypeScript, React
-
-Docker, Kubernetes
+Retool, JavaScript, TypeScript
 
 Linux, Windows
 
