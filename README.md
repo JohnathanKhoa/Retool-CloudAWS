@@ -1,7 +1,6 @@
-**Non-Public, send me a message for access and demo**
+OAuth secured, use demo credentials or request me for access
 
 Backend service for https://johnathankhoa.retool.com/app/blogportfolio/Home
-
 
 Tech Stack:
 
