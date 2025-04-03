@@ -1,6 +1,7 @@
-![image](https://github.com/user-attachments/assets/71ca61d3-72e6-4335-bffc-8bf0260fb474)
+(https://retool.com/)
 
-Backend service for [https://johnathankhoa.retool.com/app/blogportfolio/Home](https://johnathankhoa.retool.com/apps/blogPortfolio)
+This repo is the backend service for 
+[https://johnathankhoa.retool.com/app/blogportfolio/Home](https://johnathankhoa.retool.com/apps/blogPortfolio)
 
 Request access or use guest credentials from https://www.jkn95.dev/demos/rabbitmq
 
