@@ -1,4 +1,5 @@
-(https://retool.com/)
+https://retool.com/
+
 Frontend created with Retool web builder, for fast startup on applications that require user accounts, user roles, permissions, and authentication.
 
 This repo is the backend service for 
