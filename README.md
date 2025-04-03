@@ -5,6 +5,10 @@ This repo is the backend service for
 
 Request access or use guest credentials from https://www.jkn95.dev/demos/rabbitmq
 
+You can store and execute query actions on Retool and map the controller to frontend UI components hosted on Retool
+![image](https://github.com/user-attachments/assets/5fde1aa8-db69-48fb-9def-5cd66b70eb63)
+
+
 This is an example microservice and scalable full-stack application running on AWS Cloud, where client or customer can create/view/modify/delete entities based on role/permission
 ![image](https://github.com/user-attachments/assets/91cfdc93-fcde-47a4-99ac-8905739b07ec)
 
