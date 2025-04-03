@@ -2,7 +2,10 @@ OAuth secured, use demo credentials or request me for access
 
 Backend service for [https://johnathankhoa.retool.com/app/blogportfolio/Home](https://johnathankhoa.retool.com/apps/blogPortfolio)
 
-This is a full-stack application running on AWS Cloud
+This is a microservice and scalable full-stack application running on AWS Cloud, where client or customer can create/view/modify/delete entities based on role/permission
+![image](https://github.com/user-attachments/assets/91cfdc93-fcde-47a4-99ac-8905739b07ec)
+
+![image](https://github.com/user-attachments/assets/39120756-370c-41a5-92cf-428a08d0b2bf)
 
 Spring Boot Java Tomcat Webservlet instance deployed on Elastic Beanstalk (Platform Corretto 21 running on 64bit Amazon Linux 2023/4.4.2)
 
@@ -22,8 +25,3 @@ Java, Spring Framework, Maven, HTTP, REST API, JPA, JDBC, Hibernate, SQL Datasou
 
 AWS Elastic Beanstalk, EC2, RDS, S3
 
-Retool, JavaScript, TypeScript
-
-Linux, Windows
-
-IntelliJ IDEA, VSCode
