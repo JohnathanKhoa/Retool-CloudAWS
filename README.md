@@ -2,7 +2,7 @@ OAuth secured, use guest credentials from https://www.jkn95.dev/demos/rabbitmq o
 
 Backend service for [https://johnathankhoa.retool.com/app/blogportfolio/Home](https://johnathankhoa.retool.com/apps/blogPortfolio)
 
-This is a microservice and scalable full-stack application running on AWS Cloud, where client or customer can create/view/modify/delete entities based on role/permission
+This is an example microservice and scalable full-stack application running on AWS Cloud, where client or customer can create/view/modify/delete entities based on role/permission
 ![image](https://github.com/user-attachments/assets/91cfdc93-fcde-47a4-99ac-8905739b07ec)
 
 ![image](https://github.com/user-attachments/assets/0ddb5789-349f-4192-8c53-1e1a71f0a1cf)
