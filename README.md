@@ -1,4 +1,5 @@
 (https://retool.com/)
+Frontend created with Retool web builder, for fast startup on applications that require user accounts, user roles, permissions, and authentication.
 
 This repo is the backend service for 
 [https://johnathankhoa.retool.com/app/blogportfolio/Home](https://johnathankhoa.retool.com/apps/blogPortfolio)
@@ -28,8 +29,9 @@ MySQL Community engine DB instance deployed on RDS/EC2, monitored with Cloudwatc
 ![image](https://github.com/user-attachments/assets/4d735014-799e-44b1-91bb-c4bd6d690512)
 
 Snapshots and backups stored on S3, use this to restore or create new DB instances
+![image](https://github.com/user-attachments/assets/a48f79f4-885e-4151-829e-2ec084925afc)
 
-Frontend created with Retool web builder, for fast startup on applications that require user accounts, user roles, permissions, and oauthentication. 
+ 
 
 Tech Stack:
 
