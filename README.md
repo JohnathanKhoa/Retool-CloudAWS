@@ -15,8 +15,6 @@ The capacity and scaling for the environment’s instances are customizable and 
 
 MySQL Community engine DB instance deployed on RDS/EC2, monitored with Cloudwatch, logging health, cpu usage, database connections.
 
-![image](https://github.com/user-attachments/assets/9d2dedff-d53c-4bc6-bbbf-3dd86154c341)
-
 ![image](https://github.com/user-attachments/assets/4d735014-799e-44b1-91bb-c4bd6d690512)
 
 Snapshots and backups stored on S3, use this to restore or create new DB instances
