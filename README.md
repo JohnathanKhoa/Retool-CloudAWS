@@ -1,4 +1,4 @@
-OAuth secured, use demo credentials or request me for access
+OAuth secured, use guest credentials from https://www.jkn95.dev/demos/rabbitmq or request me for access
 
 Backend service for [https://johnathankhoa.retool.com/app/blogportfolio/Home](https://johnathankhoa.retool.com/apps/blogPortfolio)
 
