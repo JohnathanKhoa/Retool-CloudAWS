@@ -16,10 +16,12 @@ This is an example microservice and scalable full-stack application running on A
 ![image](https://github.com/user-attachments/assets/0ddb5789-349f-4192-8c53-1e1a71f0a1cf)
 
 Spring Boot Java Tomcat Webservlet instance deployed on Elastic Beanstalk (Platform Corretto 21 running on 64bit Amazon Linux 2023/4.4.2)
+![image](https://github.com/user-attachments/assets/397ba452-e0ec-4474-8170-6388a098318a)
 
 For controlling service access, configure the service role and EC2 instance profile on AWS that Elastic Beanstalk uses to manage your environment. Choose an EC2 key pair to securely log in to your EC2 instances.
 
 The capacity and scaling for the environment’s instances are customizable and also provide security groups to control instance traffic.
+![image](https://github.com/user-attachments/assets/b61ef82f-63a9-4ff9-a101-8b0b0d82901a)
 
 MySQL Community engine DB instance deployed on RDS/EC2, monitored with Cloudwatch, logging health, cpu usage, database connections.
 
