@@ -1,42 +1,72 @@
-https://retool.com/
+# Blog Portfolio Backend Service
 
-Frontend created with Retool web builder, for fast startup on applications that require user accounts, user roles, permissions, and authentication.
+This repository contains the backend service for the [Blog Portfolio](https://johnathankhoa.retool.com/apps/blogPortfolio) application. The frontend was created using **Retool web builder**, enabling rapid development for applications requiring **user accounts**, **roles**, **permissions**, and **authentication**.
 
-This repo is the backend service for 
-[https://johnathankhoa.retool.com/app/blogportfolio/Home](https://johnathankhoa.retool.com/apps/blogPortfolio)
+## Live Demo & Access
+- **Guest Credentials**: Available at [RabbitMQ Demo Page](https://www.jkn95.dev/demos/rabbitmq)
+- **Access Request**: Contact for permissions to explore the application further.
 
-Request access or use guest credentials from https://www.jkn95.dev/demos/rabbitmq
+---
 
-You can store and execute query actions on Retool and map the controller to frontend UI components
-![image](https://github.com/user-attachments/assets/5fde1aa8-db69-48fb-9def-5cd66b70eb63) ![image](https://github.com/user-attachments/assets/d3f4acd8-7b3e-457c-8d7c-ee874c37e385)
+## Features
 
+### Frontend Integration
+- Built with **Retool**, enabling dynamic query execution and seamless controller mapping to frontend UI components.
 
+### Full-Stack Microservices Architecture
+- Scalable backend designed to allow **create**, **view**, **modify**, and **delete** operations based on **user roles** and **permissions**.
 
-This is an example microservice and scalable full-stack application running on AWS Cloud, where client or customer can create/view/modify/delete entities based on role/permission
-![image](https://github.com/user-attachments/assets/91cfdc93-fcde-47a4-99ac-8905739b07ec)
+---
 
-![image](https://github.com/user-attachments/assets/0ddb5789-349f-4192-8c53-1e1a71f0a1cf)
+### Backend Architecture
 
-Spring Boot Java Tomcat Webservlet instance deployed on Elastic Beanstalk (Platform Corretto 21 running on 64bit Amazon Linux 2023/4.4.2)
-![image](https://github.com/user-attachments/assets/397ba452-e0ec-4474-8170-6388a098318a)
+#### **Spring Boot Application**
+- **Platform**: Elastic Beanstalk (Corretto 21 on 64-bit Amazon Linux 2023/4.4.2)
+- **Deployment Configuration**:
+  - Service role and EC2 instance profile for environment management.
+  - EC2 key pair for secure instance access.
+  - Customizable capacity and scaling options.
+  - Security groups to control traffic flow.
 
-For controlling service access, configure the service role and EC2 instance profile on AWS that Elastic Beanstalk uses to manage your environment. Choose an EC2 key pair to securely log in to your EC2 instances.
+#### **Database**
+- **MySQL Community Engine**:
+  - Hosted on **AWS RDS** and monitored with **CloudWatch** (logging health metrics, CPU usage, and database connections).
+  - Snapshots and backups stored securely on **AWS S3** for easy restoration and instance creation.
 
-The capacity and scaling for the environment’s instances are customizable and also provide security groups to control instance traffic.
-![image](https://github.com/user-attachments/assets/b61ef82f-63a9-4ff9-a101-8b0b0d82901a)
+#### **Tech Stack**
+- **Backend**:
+  - Java, Spring Framework, Maven
+  - REST API, JPA, JDBC, Hibernate
+  - Jakarta, Lombok
 
-MySQL Community engine DB instance deployed on RDS/EC2, monitored with Cloudwatch, logging health, cpu usage, database connections.
+- **Cloud Services**:
+  - AWS Elastic Beanstalk, EC2, RDS, S3
 
-![image](https://github.com/user-attachments/assets/4d735014-799e-44b1-91bb-c4bd6d690512)
+---
 
-Snapshots and backups stored on S3, use this to restore or create new DB instances
-![image](https://github.com/user-attachments/assets/97f3aa15-6809-411e-b2fb-161dce00fd64)
+## Visual Overview
 
-Tech Stack:
+### Frontend Integration in Retool:
+![Frontend Example](https://github.com/user-attachments/assets/5fde1aa8-db69-48fb-9def-5cd66b70eb63)
 
-Java, Spring Framework, Maven, HTTP, REST API, JPA, JDBC, Hibernate, SQL Datasource, Jakarta, Lombok
+### Application Workflow:
+![Workflow Example](https://github.com/user-attachments/assets/d3f4acd8-7b3e-457c-8c53-1e1a71f0a1cf)
 
-AWS Elastic Beanstalk, EC2, RDS, S3
+### Scalable Architecture:
+![Microservice Example](https://github.com/user-attachments/assets/91cfdc93-fcde-47a4-99ac-8905739b07ec)
 
-Retool
+### Spring Boot Deployment:
+![Tomcat Instance](https://github.com/user-attachments/assets/397ba452-e0ec-4474-8170-6388a098318a)
 
+### Security and Configuration:
+![Configuration Example](https://github.com/user-attachments/assets/b61ef82f-63a9-4ff9-a101-8b0b0d82901a)
+
+### RDS Monitoring:
+![Database Monitoring](https://github.com/user-attachments/assets/4d735014-799e-44b1-91bb-c4bd6d690512)
+
+### Snapshot Backup:
+![Backup Example](https://github.com/user-attachments/assets/97f3aa15-6809-411e-b2fb-161dce00fd64)
+
+---
+
+This updated version organizes content logically, highlights features clearly, and ensures the tech stack and architecture stand out for recruiters. Let me know if you'd like additional refinements!
