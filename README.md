@@ -50,9 +50,6 @@ This repository contains the backend service for the [Blog Portfolio](https://jo
 ![Frontend Example](https://github.com/user-attachments/assets/5fde1aa8-db69-48fb-9def-5cd66b70eb63)
 
 ### Application Workflow:
-![Workflow Example](https://github.com/user-attachments/assets/d3f4acd8-7b3e-457c-8c53-1e1a71f0a1cf)
-
-### Scalable Architecture:
 ![Microservice Example](https://github.com/user-attachments/assets/91cfdc93-fcde-47a4-99ac-8905739b07ec)
 
 ### Spring Boot Deployment:
