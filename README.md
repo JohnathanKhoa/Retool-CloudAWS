@@ -67,6 +67,4 @@ This repository contains the backend service for the [Blog Portfolio](https://jo
 ### Snapshot Backup:
 ![Backup Example](https://github.com/user-attachments/assets/97f3aa15-6809-411e-b2fb-161dce00fd64)
 
----
 
-This updated version organizes content logically, highlights features clearly, and ensures the tech stack and architecture stand out for recruiters. Let me know if you'd like additional refinements!
